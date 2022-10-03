@@ -1,0 +1,8 @@
+def minha_funcao(tupla: tuple):
+  lista = []
+  for elemento in tupla:
+    if elemento >= 1000: # a lista so adiciona caso, elemento tenha mais de 4 digitos (maior ou igual 1000)
+      lista.append(elemento)
+  return lista
+
+minha_funcao((1561,9,7854,0,123,74,2530)) #  [1561,7854,2530]
